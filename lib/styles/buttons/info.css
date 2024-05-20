@@ -1,0 +1,20 @@
+
+.cButton.Info {
+    background-color: #0959D9;
+    transition: all 300ms ease-out;
+}
+
+.cButton.Info:hover {
+    background-color: #1678FF;
+    ;
+}
+.cButton.Info:active {
+    background-color: #012C8C;
+}
+.cButton.Info:focus {
+    background-color: #0959D9;
+    border: #012C8C 1px solid;
+}
+.cButton.Info.Disabled {
+    background-color: #BAE0FF;
+}

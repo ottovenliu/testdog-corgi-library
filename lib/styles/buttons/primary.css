@@ -1,0 +1,19 @@
+
+.cButton.Primary {
+    background-color: #019CB0;
+    transition: all 300ms ease-out;
+}
+
+.cButton.Primary:hover {
+    background-color: #00B8D9;
+}
+.cButton.Primary:active {
+    background-color: #097984;
+}
+.cButton.Primary:focus {
+    background-color: #019CB0;
+    border: #0A6972 1px solid;
+}
+.cButton.Primary.Disabled {
+    background-color: #E3ECEA;
+}

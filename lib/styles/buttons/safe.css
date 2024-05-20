@@ -1,0 +1,20 @@
+
+.cButton.Safe {
+    background-color: #389E0D;
+    transition: all 300ms ease-out;
+}
+
+.cButton.Safe:hover {
+    background-color: #4CAF50;
+}
+.cButton.Safe:active {
+    background-color: #237803;
+}
+.cButton.Safe:focus {
+    background-color: #389E0D;
+    border: #135200 1px solid;
+}
+.cButton.Safe.Disabled {
+    background-color:  #389E0D33;
+    ;
+}
